@@ -29,11 +29,11 @@ Namun, setiap kali siklus berulang, realita di sekitarnya mulai terdistorsi. Lin
 ## 🚀 Status Pengembangan
 **Work In Progress (WIP)**
 - [x] Konsep & Game Design Document (GDD)
-- [] Greyboxing 3D Environment (Kamar & Jalanan Modular)
-- [] Core Loop Programming (Scripting hari & reset point)
-- [] UI & Text Dialogue System
-- [] Audio & Atmosphere Design
-- [] Final Polish & Build (.exe)
+- [ ] Greyboxing 3D Environment (Kamar & Jalanan Modular)
+- [ ] Core Loop Programming (Scripting hari & reset point)
+- [ ] UI & Text Dialogue System
+- [ ] Audio & Atmosphere Design
+- [ ] Final Polish & Build (.exe)
 
 ---
 *©️ 2026 | Developed by Sandzzz Dev | Sambas, Indonesia | Kamis, 19 Februari 2026*
