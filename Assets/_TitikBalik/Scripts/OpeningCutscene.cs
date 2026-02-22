@@ -14,7 +14,9 @@ public class OpeningCutscene : MonoBehaviour
     public Transform titikBangun;
     public GameObject crosshair;
 
-    // Start is called before the first frame update
+    [Header("Durasi Cutscene")]
+    public float durasiCutsene;
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -30,7 +32,7 @@ public class OpeningCutscene : MonoBehaviour
     IEnumerator BangunTidur() {
         layarHitam.CrossFadeAlpha(0, 3f, false);
 
-        yield return new WaitForSeconds(24f);
+        yield return new WaitForSeconds(durasiCutsene);
 
         playerController.enabled = false;
         player.position = titikBangun.position;

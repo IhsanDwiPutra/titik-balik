@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class PintuController : MonoBehaviour
 {
-    private Animator anim;
-    private bool isOpen = false;
-    public string teksMonolog = "Jogging dulu ah";
+    //private Animator anim;
+    //private bool isOpen = false;
+    //public string teksMonolog = "Jogging dulu ah";
+    public FadeManager fadeManager;
 
     private void Start() {
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
     }
 
     public void Interaksi() {
-        isOpen = !isOpen;
-        anim.SetBool("isBuka", isOpen);
+        //isOpen = !isOpen;
+        //anim.SetBool("isBuka", isOpen);
+        fadeManager.FadePintuKeluar();
     }
 }

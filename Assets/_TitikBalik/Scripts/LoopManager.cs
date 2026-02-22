@@ -48,7 +48,7 @@ public class LoopManager : MonoBehaviour
         if (hariKe == 1) {
             matahari.color = Color.white;
             matahari.intensity = 1f;
-            playerMovement.speed = 4f;
+            playerMovement.jalan = 4f;
 
             grupPagarNormal.SetActive(true);
             grupTembokHorror.SetActive(false);
@@ -57,12 +57,12 @@ public class LoopManager : MonoBehaviour
         } else if (hariKe == 2) {
             matahari.color = Color.gray;
             matahari.intensity = 0.5f;
-            playerMovement.speed = 3f;
+            playerMovement.jalan = 3f;
 
             narasiManager.TampilkanTeks("Kenapa jalannya terasa lebih jauh?");
         } else if (hariKe == 3) {
             matahari.intensity = 0f;
-            playerMovement.speed = 1.5f;
+            playerMovement.jalan = 1.5f;
 
             grupPagarNormal.SetActive(false);
             grupTembokHorror.SetActive(true);

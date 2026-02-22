@@ -30,7 +30,6 @@ public class PlayerInteract : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.E) && taskManager.BisaKeluar()) {
                     pintu.Interaksi();
-                    narasiManager.TampilkanTeks(pintu.teksMonolog);
                 }
 
             } else if (barangDilihat != null) {
