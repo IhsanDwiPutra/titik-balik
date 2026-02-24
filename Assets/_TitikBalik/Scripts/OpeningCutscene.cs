@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class OpeningCutscene : MonoBehaviour
-{
+public class OpeningCutscene : MonoBehaviour {
     [Header("Pengaturan Pemain")]
     public GameObject pemainAsli;
     public GameObject kameraBangun;
@@ -13,12 +12,12 @@ public class OpeningCutscene : MonoBehaviour
     public CharacterController playerController;
     public Transform titikBangun;
     public GameObject crosshair;
+    public TaskManager taskManager;
 
     [Header("Durasi Cutscene")]
     public float durasiCutsene;
 
-    void Start()
-    {
+    void Start() {
         Cursor.lockState = CursorLockMode.Locked;
         crosshair.SetActive(false);
 
@@ -43,8 +42,33 @@ public class OpeningCutscene : MonoBehaviour
         kameraBangun.SetActive(false);
         layarHitam.gameObject.SetActive(false);
         crosshair.SetActive(true);
+        taskManager.UpdateUI();
 
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+    }
+
+    public void PutarUlangCutscene(int hariKe) {
+        StopAllCoroutines();
+        StartCoroutine(ProsesCutsceneUlang(hariKe));
+    }
+
+    private System.Collections.IEnumerator ProsesCutsceneUlang(int hariKe) {
+        pemainAsli.SetActive(false);
+        kameraBangun.SetActive(true);
+        if (crosshair != null) { 
+            crosshair.SetActive(false);
+        }
+
+        Animator anim = kameraBangun.GetComponent<Animator>();
+        if (anim != null) {
+            anim.Play("BangunTidur", -1, 0f);
+        }
+
+        yield return new WaitForSeconds(durasiCutsene);
+        kameraBangun.SetActive(false);
+        pemainAsli.SetActive(true);
+        if (crosshair != null) crosshair.SetActive(true);
+
     }
 
 }
