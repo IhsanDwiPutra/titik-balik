@@ -8,6 +8,7 @@ public class NarasiManager : MonoBehaviour
 {
     public TextMeshProUGUI teksUI;
     public float kecepatanKetik = 0.05f;
+    public float jedaTeks = 3f;
 
     public void TampilkanTeks(string kalimat) {
         StopAllCoroutines();
@@ -22,7 +23,7 @@ public class NarasiManager : MonoBehaviour
             yield return new WaitForSeconds(kecepatanKetik);
         }
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(jedaTeks);
         teksUI.text = "";
     }
 

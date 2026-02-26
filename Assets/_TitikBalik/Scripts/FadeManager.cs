@@ -10,18 +10,20 @@ public class FadeManager : MonoBehaviour
     public float kecepatanFade = 1f;
     public TextMeshProUGUI teksInteraksi;
     public NarasiManager narasiManager;
+    public LoopManager loopManager;
 
     [Header("Referensi Pintu")]
     public Transform player;
     public CharacterController playerController;
     public Transform titikLuarKontrakan;
-    //public bool sedangFade = false;
+    public bool sedangFade = false;
 
-    public void FadeInteraksiBarng(string monolog) { 
-        StartCoroutine(ProsesFadeBarang(monolog));
+    public void FadeInteraksiBarng() { 
+        StartCoroutine(ProsesFadeBarang());
     }
 
-    IEnumerator ProsesFadeBarang(string monolog) {
+    IEnumerator ProsesFadeBarang() {
+        sedangFade =true;
         while (layarHitam.alpha < 1) {
             layarHitam.alpha += Time.deltaTime * kecepatanFade; yield return null;
         }
@@ -35,6 +37,7 @@ public class FadeManager : MonoBehaviour
         while (layarHitam.alpha > 0) {
             layarHitam.alpha -= Time.deltaTime * kecepatanFade; yield return null;
         }
+        sedangFade = false;
     }
 
     public void FadePintuKeluar() {
@@ -42,6 +45,7 @@ public class FadeManager : MonoBehaviour
     }
 
     IEnumerator ProsesFadePintu() {
+        //Debug.Log("Fade barang");
         //sedangFade = true;
 
         while (layarHitam.alpha < 1) {
@@ -54,7 +58,18 @@ public class FadeManager : MonoBehaviour
         //else if (hariKe == 4) teksDiTengah.text = "...Aku lelah.";
 
         //teksDiTengah.text = "Pemanasan dulu...\nSemoga lutut aman.";
-        narasiManager.TampilkanTeks("Pemanasan dulu...\nSemoga lutut aman.");
+        if (loopManager.hariKe == 1) {
+            narasiManager.TampilkanTeks("Pemanasan sebentar... lutut masih agak ngilu. Semoga hari ini larinya lancar.");
+        } else if (loopManager.hariKe == 2) {
+            narasiManager.TampilkanTeks("Badanku rasanya berat banget... tapi aku harus tetap jalan. Harus kelihatan produktif.");
+        } else if (loopManager.hariKe == 3) {
+            narasiManager.TampilkanTeks("KELUARKAN AKU DARI KAMAR INI!! CEPAT!!");
+        } else if (loopManager.hariKe == 4) {
+            narasiManager.TampilkanTeks("...buat apa aku lari lagi?");
+        }
+
+
+        //narasiManager.TampilkanTeks("Pemanasan dulu...\nSemoga lutut aman.");
         playerController.enabled = false;
         player.position = titikLuarKontrakan.position;
         player.rotation = titikLuarKontrakan.rotation;
@@ -69,5 +84,19 @@ public class FadeManager : MonoBehaviour
         //sedangFade = false;
     }
 
+    public void FadeLoop() {
+        StartCoroutine(ProsesFadeLoop());
+    }
 
+    IEnumerator ProsesFadeLoop() {
+        while (layarHitam.alpha < 1) {
+            layarHitam.alpha += Time.deltaTime * kecepatanFade; yield return null;
+        }
+
+        yield return new WaitForSeconds(7f);
+
+        while (layarHitam.alpha > 0) {
+            layarHitam.alpha -= Time.deltaTime * kecepatanFade; yield return null;
+        }
+    }
 }

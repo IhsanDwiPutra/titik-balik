@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +14,7 @@ public class OpeningCutscene : MonoBehaviour {
     public Transform titikBangun;
     public GameObject crosshair;
     public TaskManager taskManager;
+    public TextMeshProUGUI teksTodo;
 
     [Header("Durasi Cutscene")]
     public float durasiCutsene;
@@ -55,6 +57,7 @@ public class OpeningCutscene : MonoBehaviour {
     private System.Collections.IEnumerator ProsesCutsceneUlang(int hariKe) {
         pemainAsli.SetActive(false);
         kameraBangun.SetActive(true);
+        teksTodo.gameObject.SetActive(false);
         if (crosshair != null) { 
             crosshair.SetActive(false);
         }
@@ -67,6 +70,7 @@ public class OpeningCutscene : MonoBehaviour {
         yield return new WaitForSeconds(durasiCutsene);
         kameraBangun.SetActive(false);
         pemainAsli.SetActive(true);
+        teksTodo.gameObject.SetActive(true);
         if (crosshair != null) crosshair.SetActive(true);
 
     }

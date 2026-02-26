@@ -61,20 +61,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_TitikBalik\Scripts\FadeManager.cs" />
+    <Compile Include="Assets\_TitikBalik\Scripts\TembokEkspektasi.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\TaskManager.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\HpController.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\SkipOpeningScene.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\PlayerInteract.cs" />
+    <Compile Include="Assets\_TitikBalik\Scripts\TitikTengahJalan.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\NarasiManager.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\MouseLook.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\JalanBelakang.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\_TitikBalik\Scripts\TitikBalik.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\PintuController.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\Barang.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\OpeningCutscene.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\GelasController.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\LoopManager.cs" />
+    <Compile Include="Assets\_TitikBalik\Scripts\EnvironmentManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

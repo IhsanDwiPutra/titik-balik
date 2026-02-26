@@ -6,8 +6,13 @@ using UnityEngine;
 public class Barang : MonoBehaviour
 {
     [Header("Pengaturan Interaksi")]
-    public string monologBarang = "Ini barang.";
+    public string monologBiasa = "Barang biasa";
+    public string monologHari1 = "Ini Hari ke-1.";
+    public string monologHari2 = "Ini Hari ke-2.";
+    public string monologHari3 = "Ini Hari ke-3.";
+    public string monologHari4 = "Ini Hari ke-4.";
     public bool hilangSetelahDiambil = false;
+    public bool isBerubahTiapLoop = false;
 
     [Tooltip("Centang kalau barang ini butuh waktu/layar gelap")]
     public bool pakaiFade = false;
@@ -18,15 +23,19 @@ public class Barang : MonoBehaviour
     [Header("Kipas Angin")]
     public Animator animKipas;
 
-    [Header("Memori Teks (Isi 4 untuk Hari 1-4)")]
-    public string[] monologPerhari;
+    //[Header("Memori Teks (Isi 4 untuk Hari 1-4)")]
+    //public string[] monologPerhari;
 
-    [Header("Referensi Sistem")]
-    public NarasiManager narasiManager;
+    //[Header("Referensi Sistem")]
+    //public NarasiManager narasiManager;
     public FadeManager fadeManager;
-    public LoopManager loopManager;
+    //public LoopManager loopManager;
 
     public void Diambil(TaskManager taskManager) {
+        if (pakaiFade) fadeManager.FadeInteraksiBarng();
+        if (hilangSetelahDiambil) gameObject.SetActive(false);
+
+
         if (jenis == JenisBarang.Alarm) taskManager.alarmMati = true;
         if (jenis == JenisBarang.KipasAngin) {
             taskManager.kipasMati = !taskManager.kipasMati;
@@ -44,7 +53,15 @@ public class Barang : MonoBehaviour
         //if (indexHari >= monologPerhari.Length) indexHari = monologPerhari.Length - 1;
         //string teksHariIni = monologPerhari[indexHari];
 
-        if (pakaiFade) fadeManager.FadeInteraksiBarng(monologBarang);
-        if (hilangSetelahDiambil) gameObject.SetActive(false);
+        //if (isBerubahTiapLoop) {
+        //    monologBarang1 = "Halo";
+        //    Debug.Log("Eksekusi ini");
+        //    Debug.Log(teksHariIni);
+        //} else {
+        //    Debug.Log("Ini Else");
+        //    fadeManager.FadeInteraksiBarng(monologBarang1);
+        //}
+        
+        
     }
 }
