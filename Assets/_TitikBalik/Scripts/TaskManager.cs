@@ -35,6 +35,15 @@ public class TaskManager : MonoBehaviour
     public bool isInKamar = true;
     public LoopManager loopManager;
 
+    [Header("Sosok Hitam di Depan")]
+    public GameObject sosokHitam;
+    public GameObject pasukanSosokHitam;
+
+    private void Start() {
+        sosokHitam.SetActive(false);
+        pasukanSosokHitam.SetActive(false);
+    }
+
     public bool BisaKeluar() {
         if (loopManager.hariKe == 4) return true;
         else { 
@@ -81,16 +90,20 @@ public class TaskManager : MonoBehaviour
             } else if (loopManager.hariKe == 3) {
                 teksTodoList.fontSize = 38;
                 teksTodoList.text = "<color=red><b>MEREKA MENGHAKIMIMU:</b></color>\n" + t1 + "\n" + t2 + "\n" + t3 + "\n" + t4 + "\n" + t5 + "\n" + t6;
+                sosokHitam.SetActive(true);
             } else {
                 teksTodoList.fontSize = 40;
                 teksTodoList.text = "<b>ERROR</b>\n" + t1 + "\n" + t2 + "\n" + t3 + "\n" + t4 + "\n" + t5 + "\n" + t6;
+                pasukanSosokHitam.SetActive(false);
             }
         } else {
             if (loopManager.hariKe == 3) {
                 teksTodoList.fontSize = 38;
-                teksTodoList.text = "<color=red><b>Jogging sampai ke gerbang</b></color>";
+                teksTodoList.text = "<color=red><b>Jalan ke Depan</b></color>";
+                sosokHitam.SetActive(false);
+                pasukanSosokHitam.SetActive(true);
             } else { 
-                teksTodoList.text = "Jogging sampai ke gerbang";
+                teksTodoList.text = "Jalan ke Depan";
             }
         }
     }

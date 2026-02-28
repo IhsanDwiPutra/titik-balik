@@ -9,6 +9,8 @@ public class JalanBelakang : MonoBehaviour
     public GameObject penghalang;
     public GameObject titikTengahJalan;
     public NarasiManager narasiManager;
+    public GameObject dindingBelakang;
+    public GameObject progressJalan;
 
     private void Start() {
         kamarPlayer.SetActive(true);
@@ -21,6 +23,8 @@ public class JalanBelakang : MonoBehaviour
         penghalang.SetActive(true);
         jalanBelakang.SetActive(true);
         titikTengahJalan.SetActive(false);
+        dindingBelakang.SetActive(false);
+        progressJalan.SetActive(false);
 
         narasiManager.TampilkanTeks("Buntu?! Tembok apa ini... 'EKSPEKTASI'? Jadi selama ini aku berlari cuma buat nabrak ini?");
     }

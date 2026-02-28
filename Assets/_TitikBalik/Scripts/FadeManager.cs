@@ -11,12 +11,17 @@ public class FadeManager : MonoBehaviour
     public TextMeshProUGUI teksInteraksi;
     public NarasiManager narasiManager;
     public LoopManager loopManager;
+    public GameObject progressBar;
 
     [Header("Referensi Pintu")]
     public Transform player;
     public CharacterController playerController;
     public Transform titikLuarKontrakan;
     public bool sedangFade = false;
+
+    private void Start() {
+        progressBar.SetActive(false);
+    }
 
     public void FadeInteraksiBarng() { 
         StartCoroutine(ProsesFadeBarang());
@@ -74,6 +79,7 @@ public class FadeManager : MonoBehaviour
         player.position = titikLuarKontrakan.position;
         player.rotation = titikLuarKontrakan.rotation;
         playerController.enabled = true;
+        progressBar.SetActive(true);
 
         yield return new WaitForSeconds(3.5f);
         //teksDiTengah.text = "";
@@ -89,6 +95,7 @@ public class FadeManager : MonoBehaviour
     }
 
     IEnumerator ProsesFadeLoop() {
+        progressBar.SetActive(false);
         while (layarHitam.alpha < 1) {
             layarHitam.alpha += Time.deltaTime * kecepatanFade; yield return null;
         }

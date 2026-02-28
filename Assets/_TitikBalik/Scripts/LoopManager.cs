@@ -22,14 +22,16 @@ public class LoopManager : MonoBehaviour
 
     [Header("Atmosfer & Lingkungan")]
     public Light matahari;
-    public GameObject grupPagarNormal;
-    public GameObject grupTembokHorror;
     public GameObject kamar;
     public GameObject jalanBelakang;
     public GameObject pagarDepan;
+    public Light lampuKamar;
 
     [Header("Narasi Sistem")]
     public NarasiManager narasiManager;
+
+    [Header("Referensi Suasana")]
+    public EnvironmentManager environmentManager;
 
     [Header("Memori Hari")]
     public int hariKe = 1;
@@ -49,6 +51,7 @@ public class LoopManager : MonoBehaviour
     }
 
     IEnumerator ResetPosisiPemain() {
+        //Debug.Log("Intro Baru");
         fadeManager.FadeLoop();
         taskManager.isInKamar = true;
         yield return new WaitForSeconds(3f);
@@ -63,24 +66,26 @@ public class LoopManager : MonoBehaviour
         scriptCutscene.PutarUlangCutscene(hariKe);
 
         taskManager.ResetTugas();
-        
+
+        environmentManager.UbahSuasana(hariKe);
         UpdateLingkungan();
     }
 
     private void UpdateLingkungan() {
         if (hariKe == 1) {
-            matahari.color = Color.white;
-            matahari.intensity = 1f;
+            //matahari.color = Color.white;
+            //matahari.intensity = 1f;
             playerMovement.jalan = 4f;
             playerMovement.lari = 5f;
+            lampuKamar.enabled = true;
 
             //grupPagarNormal.SetActive(true);
             //grupTembokHorror.SetActive(false);
 
             narasiManager.TampilkanTeks("Hari ini sama seperti kemarin...");
         } else if (hariKe == 2) {
-            matahari.color = Color.gray;
-            matahari.intensity = 0.5f;
+            //matahari.color = Color.gray;
+            //matahari.intensity = 0.5f;
             playerMovement.jalan = 3f;
             playerMovement.lari = 4f;
 
@@ -91,24 +96,24 @@ public class LoopManager : MonoBehaviour
             narasiManager.teksUI.fontStyle = FontStyles.Bold;
             narasiManager.teksUI.fontSize = 50;
             crosshair.color = Color.red;
+            lampuKamar.color = Color.red;
 
             pagarDepan.SetActive(false);
-            matahari.intensity = 0f;
             playerMovement.jalan = 1f;
             playerMovement.lari = 2f;
 
-            //grupPagarNormal.SetActive(false);
-            grupTembokHorror.SetActive(true);
 
             narasiManager.TampilkanTeks("Napas... Sesak... Udara di kamar ini habis...");
-        } else if (hariKe == 4) { 
+        } else if (hariKe == 4) {
+            playerMovement.jalan = 2f;
+            playerMovement.lari = 3f;
             narasiManager.teksUI.color = Color.white;
             narasiManager.teksUI.fontSize = 36;
             narasiManager.teksUI.fontStyle = FontStyles.Normal;
             narasiManager.kecepatanKetik = 0.04f;
             crosshair.color = Color.white;
+            lampuKamar.enabled = false;
 
-            grupTembokHorror.SetActive(false);
             pagarDepan.SetActive(true);
             jalanBelakang.SetActive(true);
         }
