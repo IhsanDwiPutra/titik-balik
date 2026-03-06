@@ -12,6 +12,7 @@ public class FadeManager : MonoBehaviour
     public NarasiManager narasiManager;
     public LoopManager loopManager;
     public GameObject progressBar;
+    public SuaraLangkah suaraLangkah;
 
     [Header("Referensi Pintu")]
     public Transform player;
@@ -29,6 +30,7 @@ public class FadeManager : MonoBehaviour
 
     IEnumerator ProsesFadeBarang() {
         sedangFade =true;
+        suaraLangkah.enabled = false;
         while (layarHitam.alpha < 1) {
             layarHitam.alpha += Time.deltaTime * kecepatanFade; yield return null;
         }
@@ -43,6 +45,7 @@ public class FadeManager : MonoBehaviour
             layarHitam.alpha -= Time.deltaTime * kecepatanFade; yield return null;
         }
         sedangFade = false;
+        suaraLangkah.enabled = true;
     }
 
     public void FadePintuKeluar() {
@@ -52,7 +55,7 @@ public class FadeManager : MonoBehaviour
     IEnumerator ProsesFadePintu() {
         //Debug.Log("Fade barang");
         //sedangFade = true;
-
+        suaraLangkah.enabled = false;
         while (layarHitam.alpha < 1) {
             layarHitam.alpha += Time.deltaTime * kecepatanFade; yield return null;
         }
@@ -87,6 +90,7 @@ public class FadeManager : MonoBehaviour
         while (layarHitam.alpha > 0) { 
             layarHitam.alpha -= Time.deltaTime * kecepatanFade; yield return null;
         }
+        suaraLangkah.enabled = true;
         //sedangFade = false;
     }
 
@@ -95,6 +99,7 @@ public class FadeManager : MonoBehaviour
     }
 
     IEnumerator ProsesFadeLoop() {
+        suaraLangkah.enabled = false;
         progressBar.SetActive(false);
         while (layarHitam.alpha < 1) {
             layarHitam.alpha += Time.deltaTime * kecepatanFade; yield return null;
@@ -105,5 +110,6 @@ public class FadeManager : MonoBehaviour
         while (layarHitam.alpha > 0) {
             layarHitam.alpha -= Time.deltaTime * kecepatanFade; yield return null;
         }
+        suaraLangkah.enabled = true;
     }
 }

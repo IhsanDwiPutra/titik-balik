@@ -11,6 +11,7 @@ public class JalanBelakang : MonoBehaviour
     public NarasiManager narasiManager;
     public GameObject dindingBelakang;
     public GameObject progressJalan;
+    public AudioSource suaraTembok;
 
     private void Start() {
         kamarPlayer.SetActive(true);
@@ -25,6 +26,7 @@ public class JalanBelakang : MonoBehaviour
         titikTengahJalan.SetActive(false);
         dindingBelakang.SetActive(false);
         progressJalan.SetActive(false);
+        suaraTembok.Play();
 
         narasiManager.TampilkanTeks("Buntu?! Tembok apa ini... 'EKSPEKTASI'? Jadi selama ini aku berlari cuma buat nabrak ini?");
     }

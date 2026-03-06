@@ -14,6 +14,9 @@ public class EndingManager : MonoBehaviour
     public float kecepatanFade = 0.5f;
     public string namaSceneMainMenu = "MainMenu";
 
+    [Header("Suara Ending")]
+    public AudioSource suaraEnding;
+
     private bool endingMulai = false;
 
     public void MulaiEnding() {
@@ -24,6 +27,7 @@ public class EndingManager : MonoBehaviour
     }
 
     IEnumerator ProsesEndingDramatis() {
+        suaraEnding.Play();
         while (panelPutih.alpha < 1) {
             panelPutih.alpha += Time.deltaTime * kecepatanFade;
             yield return null;
@@ -38,6 +42,7 @@ public class EndingManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(5f);
+        suaraEnding.Stop();
 
         SceneManager.LoadScene(namaSceneMainMenu);
     }

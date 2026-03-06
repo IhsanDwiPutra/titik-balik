@@ -26,6 +26,7 @@ public class LoopManager : MonoBehaviour
     public GameObject jalanBelakang;
     public GameObject pagarDepan;
     public Light lampuKamar;
+    public SuaraLangkah suaraLangkah;
 
     [Header("Narasi Sistem")]
     public NarasiManager narasiManager;
@@ -38,7 +39,9 @@ public class LoopManager : MonoBehaviour
 
     private void Start() {
         UpdateLingkungan();
+        environmentManager.UbahSuasana(hariKe);
     }
+
 
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
@@ -77,7 +80,13 @@ public class LoopManager : MonoBehaviour
             //matahari.intensity = 1f;
             playerMovement.jalan = 4f;
             playerMovement.lari = 5f;
+            suaraLangkah.tempoJalan = 0.5f;
+            suaraLangkah.tempoLari = 0.3f;
             lampuKamar.enabled = true;
+
+            //if (!taskManager.isInKamar) {
+            //    suaraAmbience = suaraAmbience[0];
+            //}
 
             //grupPagarNormal.SetActive(true);
             //grupTembokHorror.SetActive(false);
@@ -88,6 +97,8 @@ public class LoopManager : MonoBehaviour
             //matahari.intensity = 0.5f;
             playerMovement.jalan = 3f;
             playerMovement.lari = 4f;
+            suaraLangkah.tempoJalan = 0.6f;
+            suaraLangkah.tempoLari = 0.4f;
 
             narasiManager.TampilkanTeks("Kenapa rasanya lelah sekali... padahal baru membuka mata.");
         } else if (hariKe == 3) {
@@ -101,12 +112,17 @@ public class LoopManager : MonoBehaviour
             pagarDepan.SetActive(false);
             playerMovement.jalan = 1f;
             playerMovement.lari = 2f;
+            suaraLangkah.tempoJalan = 0.8f;
+            suaraLangkah.tempoLari = 0.6f;
 
 
             narasiManager.TampilkanTeks("Napas... Sesak... Udara di kamar ini habis...");
         } else if (hariKe == 4) {
             playerMovement.jalan = 2f;
             playerMovement.lari = 3f;
+            suaraLangkah.tempoJalan = 0.6f;
+            suaraLangkah.tempoLari = 0.4f;
+
             narasiManager.teksUI.color = Color.white;
             narasiManager.teksUI.fontSize = 36;
             narasiManager.teksUI.fontStyle = FontStyles.Normal;

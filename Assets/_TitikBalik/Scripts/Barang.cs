@@ -14,6 +14,12 @@ public class Barang : MonoBehaviour
     public bool hilangSetelahDiambil = false;
     public bool isBerubahTiapLoop = false;
 
+    [Header("Suara Bising")]
+    public AudioSource suaraLooping;
+
+    [Header("Suara Interaksi")]
+    public AudioClip sfxDiklik;
+
     [Tooltip("Centang kalau barang ini butuh waktu/layar gelap")]
     public bool pakaiFade = false;
 
@@ -48,20 +54,12 @@ public class Barang : MonoBehaviour
 
         taskManager.UpdateUI();
 
-        //int indexHari = loopManager.hariKe - 1;
+        if (suaraLooping != null) {
+            suaraLooping.Stop();
+        }
 
-        //if (indexHari >= monologPerhari.Length) indexHari = monologPerhari.Length - 1;
-        //string teksHariIni = monologPerhari[indexHari];
-
-        //if (isBerubahTiapLoop) {
-        //    monologBarang1 = "Halo";
-        //    Debug.Log("Eksekusi ini");
-        //    Debug.Log(teksHariIni);
-        //} else {
-        //    Debug.Log("Ini Else");
-        //    fadeManager.FadeInteraksiBarng(monologBarang1);
-        //}
-        
-        
+        if (sfxDiklik != null) { 
+            AudioSource.PlayClipAtPoint(sfxDiklik, transform.position);
+        }
     }
 }

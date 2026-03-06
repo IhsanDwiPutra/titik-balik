@@ -74,6 +74,7 @@
     <Compile Include="Assets\_TitikBalik\Scripts\TitikBalik.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\TitikAkhir.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\ProgressJalan.cs" />
+    <Compile Include="Assets\_TitikBalik\Scripts\SuaraLangkah.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\PintuController.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\Barang.cs" />
     <Compile Include="Assets\_TitikBalik\Scripts\OpeningCutscene.cs" />

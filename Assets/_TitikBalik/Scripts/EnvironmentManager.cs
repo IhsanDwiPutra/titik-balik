@@ -13,8 +13,9 @@ public class EnvironmentManager : MonoBehaviour {
     public Color[] warnaKabut;
     public float[] ketebalanKabut;
 
-    //[Header("Objek Terror")]
-    //public GameObject pasukanSosokGelap;
+    [Header("Pengaturan Suara Latar")]
+    public AudioSource sumberAmbience;
+    public AudioClip[] ambiencePerHari;
 
     private void Start() {
         RenderSettings.fog = true;
@@ -40,8 +41,14 @@ public class EnvironmentManager : MonoBehaviour {
             RenderSettings.fogDensity = ketebalanKabut[index];
         }
 
-        //if (hariKe == 3) pasukanSosokGelap.SetActive(true);
-        //else pasukanSosokGelap.SetActive(false);
+        if (sumberAmbience != null && ambiencePerHari.Length > 0) {
+            if (ambiencePerHari[index] != null) {
+                sumberAmbience.clip = ambiencePerHari[index];
+                sumberAmbience.Play();
+            } else {
+                sumberAmbience.Stop();
+            }
+        }
     }
 
 

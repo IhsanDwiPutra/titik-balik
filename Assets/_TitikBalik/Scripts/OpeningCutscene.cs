@@ -17,6 +17,7 @@ public class OpeningCutscene : MonoBehaviour {
     public TaskManager taskManager;
     public TextMeshProUGUI teksTodo;
     public TextMeshProUGUI teksChapter;
+    public LoopManager loopManager;
 
     [Header("Durasi Cutscene")]
     public float durasiCutsene;
@@ -35,9 +36,12 @@ public class OpeningCutscene : MonoBehaviour {
     }
 
     IEnumerator BangunTidur() {
-        teksChapter.text = "Hari 1";
+        if (loopManager.hariKe == 1) teksChapter.text = "Hari 1";
+        else if (loopManager.hariKe == 2) teksChapter.text = "Hari 2";
+        else if (loopManager.hariKe == 3) teksChapter.text = "Hari 3";
+        else teksChapter.text = "Hari 4";
+
         yield return new WaitForSeconds(3f);
-        Debug.Log("Hilang");
         teksChapter.gameObject.SetActive(false);
 
         layarHitam.CrossFadeAlpha(0, 3f, false);
