@@ -39,6 +39,8 @@ public class TaskManager : MonoBehaviour
     public GameObject sosokHitam;
     public GameObject pasukanSosokHitam;
 
+    //public Barang barang;
+
     private void Start() {
         sosokHitam.SetActive(false);
         pasukanSosokHitam.SetActive(false);
@@ -118,8 +120,12 @@ public class TaskManager : MonoBehaviour
         animKipas.enabled = true;
 
         foreach (GameObject barang in daftarBarang) {
+            Barang dataBarang = barang.GetComponent<Barang>();
             if (barang != null) {
                 barang.SetActive(true);
+                if (dataBarang.suaraLooping != null) {
+                    dataBarang.suaraLooping.Play();
+                }
             }
         }
 

@@ -38,6 +38,8 @@ public class LoopManager : MonoBehaviour
     public int hariKe = 1;
 
     private void Start() {
+        Application.targetFrameRate = 60;
+        Screen.SetResolution(1280, 720, true);
         UpdateLingkungan();
         environmentManager.UbahSuasana(hariKe);
     }

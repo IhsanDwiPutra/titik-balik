@@ -3,68 +3,20 @@
   "WorkspaceRootPath": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\barang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\barang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|d:\\produktif\\unity\\projek\\3d\\psychological horror\\titik balik\\titikbalik\\assets\\_titikbalik\\scripts\\loopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\loopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\jalanbelakang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\jalanbelakang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\titikakhir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\titikakhir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\endingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\endingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\fademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\fademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|d:\\produktif\\unity\\projek\\3d\\psychological horror\\titik balik\\titikbalik\\assets\\_titikbalik\\scripts\\suaralangkah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\suaralangkah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\loopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\loopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|d:\\produktif\\unity\\projek\\3d\\psychological horror\\titik balik\\titikbalik\\assets\\_titikbalik\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|d:\\produktif\\unity\\projek\\3d\\psychological horror\\titik balik\\titikbalik\\assets\\_titikbalik\\scripts\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\environmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\environmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\openingcutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\openingcutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\progressjalan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\progressjalan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\titiktengahjalan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\titiktengahjalan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\tatapanekspektasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\tatapanekspektasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\pintucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\pintucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\assets\\_titikbalik\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54519489-801A-688E-C395-6733ADF32117}|Assembly-CSharp.csproj|solutionrelative:assets\\_titikbalik\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,208 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "LoopManager.cs",
               "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\LoopManager.cs",
               "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\LoopManager.cs",
               "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\LoopManager.cs",
               "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\LoopManager.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAkwHsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwCkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T07:35:11.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SuaraLangkah.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\SuaraLangkah.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\SuaraLangkah.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\SuaraLangkah.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\SuaraLangkah.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T03:02:43.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T03:11:06.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PintuController.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\PintuController.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\PintuController.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\PintuController.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\PintuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T04:35:35.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Barang.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\Barang.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\Barang.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\Barang.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\Barang.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAuwD0AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T04:21:41.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EndingManager.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\EndingManager.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\EndingManager.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\EndingManager.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\EndingManager.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T15:00:01.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TitikTengahJalan.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\TitikTengahJalan.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\TitikTengahJalan.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\TitikTengahJalan.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\TitikTengahJalan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T13:43:36.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TitikAkhir.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\TitikAkhir.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\TitikAkhir.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\TitikAkhir.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\TitikAkhir.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T06:09:45.28Z",
+              "WhenOpened": "2026-03-11T07:44:59.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JalanBelakang.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\JalanBelakang.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\JalanBelakang.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\JalanBelakang.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\JalanBelakang.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAbAAAAAAAAAA==",
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\MenuManager.cs",
+              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\MenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T05:42:43.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T02:57:00.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TatapanEkspektasi.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\TatapanEkspektasi.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\TatapanEkspektasi.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\TatapanEkspektasi.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\TatapanEkspektasi.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwB8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MouseLook.cs",
+              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\MouseLook.cs",
+              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\MouseLook.cs",
+              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\MouseLook.cs",
+              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\MouseLook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:29:21.438Z"
+              "WhenOpened": "2026-03-11T02:56:25.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FadeManager.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\FadeManager.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\FadeManager.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\FadeManager.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\FadeManager.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAswHAAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EndingManager.cs",
+              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\EndingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\EndingManager.cs",
+              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\EndingManager.cs",
+              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\EndingManager.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T14:58:38.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OpeningCutscene.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\OpeningCutscene.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\OpeningCutscene.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\OpeningCutscene.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\OpeningCutscene.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T14:55:45.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProgressJalan.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\ProgressJalan.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\ProgressJalan.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\ProgressJalan.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\ProgressJalan.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T14:43:57.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EnvironmentManager.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\EnvironmentManager.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\EnvironmentManager.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\EnvironmentManager.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\EnvironmentManager.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwC4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T15:58:03.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PlayerInteract.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\PlayerInteract.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\PlayerInteract.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\PlayerInteract.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\PlayerInteract.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwBoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T04:03:32.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TaskManager.cs",
-              "DocumentMoniker": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\TaskManager.cs",
-              "RelativeDocumentMoniker": "Assets\\_TitikBalik\\Scripts\\TaskManager.cs",
-              "ToolTip": "D:\\PRODUKTIF\\Unity\\Projek\\3D\\Psychological Horror\\Titik Balik\\TitikBalik\\Assets\\_TitikBalik\\Scripts\\TaskManager.cs",
-              "RelativeToolTip": "Assets\\_TitikBalik\\Scripts\\TaskManager.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAUwGUAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T07:43:43.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T02:55:24.746Z"
             }
           ]
         }

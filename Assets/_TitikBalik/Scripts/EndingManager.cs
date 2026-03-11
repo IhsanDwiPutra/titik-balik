@@ -44,6 +44,7 @@ public class EndingManager : MonoBehaviour
         yield return new WaitForSeconds(5f);
         suaraEnding.Stop();
 
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene(namaSceneMainMenu);
     }
 }
