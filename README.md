@@ -24,7 +24,12 @@ Namun, setiap kali siklus berulang, realita di sekitarnya mulai terdistorsi. Lin
 * **3D Modeling:** Blender (Real-world scale & Modular Assets)
 * **Render Pipeline:** Universal Render Pipeline (URP)
 
-<!-- ## 📷 Screenshots -->
+## 📷 Cuplikan Permainan
+![Main Menu](Screenshots/MainMenu.png)
+![Gameplay 1](Screenshots/Gameplay1.png)
+![Gameplay 2](Screenshots/Gameplay2.png)
+![Gameplay 3](Screenshots/Gameplay3.png)
+![Gameplay 4](Screenshots/Gameplay4.png)
 
 ## 🚀 Status Pengembangan
 **Work In Progress (WIP)**
